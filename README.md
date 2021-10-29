@@ -4,7 +4,7 @@ Just a portfolio made in react.js
 
 ## ✨ Features
 
-- just a portolio xD!
+- just a portfolio xD!
 - thats it!
 
 ## 💁‍♀️ How to use
