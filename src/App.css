@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 .App-logo {
 
@@ -9,28 +8,23 @@
   filter: drop-shadow(20px 20px 20px);
 }
 
+.banner {
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  font-size: calc (25px + 2vmin);
+  color: #433737;
+}
+
 .App-header {
   background-color: #F7F7F7;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(5px + 2vmin);
   color: #433737;
-
-}
-
-.underline {
-  background-color: #F7F7F7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(4px + 2vmin);
-  color: #433737;
-  text-shadow: 2px 2px 5px ;
-
 }
 
 .footer {
@@ -78,6 +72,3 @@
   box-sizing: border-box;
   border-radius: 30px;
 }
-
-
-
