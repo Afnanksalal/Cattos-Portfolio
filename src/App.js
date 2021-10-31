@@ -1,17 +1,15 @@
 import './App.css';
 import logo from './logo.png';
-import banner from './banner.svg';
 
 function App() {
   return (
 <div class="App">
   <div class="banner">
-    <a href="https://www.youtube.com/watch?v=eCOdMdWbP_4">
-      <p align="right"> <img src={banner} height="70" class="banner" filter="drop-shadow(20px 20px 20px)" alt="banner" /></p>
-    </a>
-    <h1 align="center" class="banner"> <code><strong> 🤎 Welcome to Catto's Portfolio 🤎</strong> </code></h1> </div>
+      <h1 align="center"> <code><strong> Welcome to the portfolio of Catto! </strong> </code></h1> 
+      <h2><code><strong>Meow! I am catto, want some hugs? </strong></code></h2>
+    </div>
   <header class="App-header">
-    <h3><code><strong>Meow! I'm catto, want some hugs?</strong></code></h3> <img src={logo} className="App-logo" alt="logo" />
+  <img src={logo} className="App-logo" alt="logo" />
     <div class="container">
       <div class="box">
         <p> <strong>‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ <code>‎‎‎‎Want to know more about me?</code> ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎</strong> </p>
@@ -25,10 +23,10 @@ function App() {
       </div>
     </div>
     <div class="footer">
-      <h4><code>🤎 “There are two means of refuge from the miseries of life: music and cats.” – Albert Schweitzer 🤎</code></h4> </div>
+      <h5><code>Made with 🤎 by Ace. </code></h5> 
+      </div>
   </header>
 </div>
       );
     }
-    
     export default App;
